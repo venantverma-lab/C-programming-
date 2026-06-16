@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+// Define structure
+struct Student {
+    int roll;
+    string name;
+    float marks;
+};
+
+int main() {
+    // Declare structure variable
+    Student s1;
+
+    // Assign values
+    s1.roll = 101;
+    s1.name = "Vedant";
+    s1.marks = 89.5;
+
+    // Display values
+    cout << "Roll: " << s1.roll << endl;
+    cout << "Name: " << s1.name << endl;
+    cout << "Marks: " << s1.marks << endl;
+
+    return 0;
+}
